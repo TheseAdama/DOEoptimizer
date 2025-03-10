@@ -18,9 +18,8 @@ devtools::install_github("TheseAdama/DOEoptimizer")
 ### 📂 Option 2: Manual Installation (Download & Install ZIP)
 
 1. **Download the ZIP or TAR.GZ file**
+   Download the latest version of the package in ZIP or TAR.GZ format.
 
-   Go to the [releases page](https://github.com/TheseAdama/DOEoptimizer/releases) (or your custom link) and download the latest version of the package:
-   
    - For **Windows**: `DOEoptimizer_x.y.z.zip`
    - For **Linux/macOS**: `DOEoptimizer_x.y.z.tar.gz`
 

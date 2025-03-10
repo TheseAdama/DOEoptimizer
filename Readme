@@ -1,12 +1,13 @@
-# 📦 DOEoptimizer
+#📦 DOEoptimizer
 
 **DOEoptimizer** is an R package that provides five optimization algorithms designed to optimize the criteria of physical experiments (matrix input functions). 
 It offers tools and utilities for constructing optimal design of experiments through genetic algorithms, simulated annealing, stochastic optimization, or greedy algorithms.
 
-## 📥 Installation
+# 📥 Installation
 
 You can install the latest version of the package manually or directly from GitHub:
 
 ```r
 install.packages("devtools")
 devtools::install_github("TheseAdama/DOEoptimizer")
+```

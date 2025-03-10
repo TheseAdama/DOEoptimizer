@@ -1,0 +1,17 @@
+Package: DOEoptimizer
+Title: A Package for Optimizing Design of Experiments Criteria
+Version: 0.1.0
+Authors@R: 
+    person("Adama", "Barry", , "adama.barry@ifp.fr", role = c("aut", "cre"))
+Description: DOEoptimizer is a package that implements four optimization
+    algorithms specifically designed for optimizing experimental design
+    criteria.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: lhs
+NeedsCompilation: no
+Packaged: 2024-08-21 01:13:19 UTC; barrya
+Author: Adama Barry [aut, cre]
+Maintainer: Adama Barry <adama.barry@ifp.fr>

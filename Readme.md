@@ -15,7 +15,7 @@ Make sure you have the `devtools` package installed, then use:
 install.packages("devtools")
 devtools::install_github("TheseAdama/DOEoptimizer")
 ```
-### 📂 Option 2: Manual Installation (Download & Install ZIP)
+### Option 2: Manual Installation (Download & Install ZIP)
 
 1. **Download the ZIP or TAR.GZ file**
    Download the latest version of the package in ZIP or TAR.GZ format.
@@ -39,7 +39,7 @@ devtools::install_github("TheseAdama/DOEoptimizer")
 
 ---
 
-✅ After installation, load the package as usual:
+After installation, load the package:
 
 ```r
 library(DOEoptimizer)

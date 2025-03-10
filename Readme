@@ -1,0 +1,48 @@
+# DOEoptimizer
+
+**DOEoptimizer** is an R package that provides several optimization algorithms designed to optimize design of physical experiments criteria (matrix input functions). It offers tools and utilities for constructing efficient experimental designs through genetic algorithms, simulated annealing, stochastic optimization, and greedy strategies.
+
+---
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Features](#features)
+- [Utility Functions](#utility-functions)
+  - [LHSD](#lhsd-latin-hypercube-maximin-sampling-in-a-domain-d)
+  - [Neighbor](#neighbor-generate-random-neighboring-points)
+  - [TT](#tt-constraint-handling-function-for-optimization)
+- [Optimization Algorithms](#optimization-algorithms)
+  - [FIBoptim](#fiboptim-forward-improvement-and-backward-optimization)
+  - [Gridoptim](#gridoptim-grid-based-greedy-forward-optimization)
+  - [GEAoptim](#geaoptim-genetic-evolutionary-optimization)
+  - [SPSAoptim](#spsaoptim-stochastic-optimization-using-simultaneous-perturbation-stochastic-approximation)
+  - [SAoptim](#saoptim-simulated-annealing-optimization)
+- [Discussion and Conclusion](#discussion-and-conclusion)
+- [References](#references)
+
+---
+
+## Description
+
+The **DOEoptimizer** package implements five optimization algorithms tailored for optimizing the criteria of physical experiment designs. These algorithms work with matrix input objective functions.
+
+Included algorithms:
+
+- `GEAoptim`: Genetic Algorithm Optimization
+- `SAoptim`: Simulated Annealing Optimization
+- `FIBoptim`: Forward, Improvement, and Backward Greedy Optimization
+- `SPSAoptim`: Stochastic Optimization using Simultaneous Perturbation Stochastic Approximation
+- `Gridoptim`: Greedy Forward Optimization
+
+---
+
+## Installation
+
+You can install the package (if available via GitHub or CRAN), or manually load it into your R session:
+
+```r
+# Example for GitHub installation (if available)
+# devtools::install_github("username/DOEoptimizer")
+```

@@ -10,4 +10,4 @@ You can install the latest version of the package manually or directly from GitH
 ```r
 install.packages("devtools")
 devtools::install_github("TheseAdama/DOEoptimizer")
-
+```

@@ -18,12 +18,13 @@ devtools::install_github("TheseAdama/DOEoptimizer")
 ### Option 2: Manual Installation (Download & Install ZIP)
 
 1. **Download the ZIP or TAR.GZ file**
+
    Download the latest version of the package in ZIP or TAR.GZ format.
 
    - For **Windows**: `DOEoptimizer_x.y.z.zip`
    - For **Linux/macOS**: `DOEoptimizer_x.y.z.tar.gz`
 
-2. **Install the package manually in R**
+3. **Install the package manually in R**
 
    Open your R session and run one of the following commands, replacing the file path with where you downloaded the archive:
 

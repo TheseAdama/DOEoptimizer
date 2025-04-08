@@ -5,8 +5,8 @@
 #' @param fobj A function representing the objective function to be optimized. It should accept a matrix as input where each row is a different set of experiments.
 #' @param size An integer specifying the size of the experimental design (number of points).
 #' @param D A numeric matrix representing the domain of design elements. Each row defines the range for one design variable.
-#' @param maxiter Maximum number of iterations for the algorithm (default: 1000).
-#' @param temp Initial temperature for the annealing process (default: 1).
+#' @param maxiter Maximum number of iterations for the algorithm (default: 10^(1 + nrow(D)).
+#' @param temp Initial temperature for the annealing process (default: 0.1).
 #' @param c Cooling rate, controlling the reduction of temperature over iterations (default: 0.99).
 #' @param Xinit Initial design matrix for the experiments. If NULL, the initial design from `object` is used.
 #' @param ptype The probability scheme used for accepting new designs. Can be "metropolis" (default) or "glauber".
